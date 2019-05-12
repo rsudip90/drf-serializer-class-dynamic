@@ -17,11 +17,11 @@ Decide serializer class dynamically based on viewset actions
 - run the web application server via `python manage.py runserver`
 - There are three users available in fixtures as follows:
 
-    | email               | password | is_superuser | is_staff |
-    |---------------------|----------|--------------|----------|
-    | admin@localhost.com | admin    | yes          | yes      |
-    | frank@raindrops.com | 1234     | no           | no       |
-    | joe@raindrops.com   | 1234     | no           | no       |
+    | email                 | password | is_superuser | is_staff |
+    |-----------------------|----------|--------------|----------|
+    | `admin@localhost.com` | admin    | yes          | yes      |
+    | `frank@raindrops.com` | 1234     | no           | no       |
+    | `joe@raindrops.com`   | 1234     | no           | no       |
 
-- get logged in via username `frank@raindrops.com` at url `http://localhost:8000/api-auth/login/`
-- visit `http://localhost:8000/api/v1/` and that's it.
+- get logged in via username `frank@raindrops.com` at url http://localhost:8000/api-auth/login/
+- visit http://localhost:8000/api/v1/ and that's it.
