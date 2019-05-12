@@ -1,0 +1,6 @@
+Django
+django-enumfields
+djangorestframework
+django-filter
+markdown
+django-rest-swagger
